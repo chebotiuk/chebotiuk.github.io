@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="assets/logo-loveknitting.svg" alt="Loveknitting Logo" id="logo" class="visible-md visible-lg img-responsive">
+						<img src="assets/logo-loveknitting-sm.svg" alt="Loveknitting Logo" id="logo" class="visible-sm visible-xs img-responsive">
+					</div>
+					<div class="col-md-8">
+						<h1>Registration Exercise</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 wrapper">
+						<form class="form-horizontal text-left" id="form" >
+						  <div class="form-group">
+						    <label for="email" class="col-sm-2 control-label">Email</label>
+						    <div class="col-sm-10">
+						      <input type="email" id="email" class="form-control" name="email"  placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="date" class="col-sm-2 control-label">Birthday</label>
+						    <div class="col-sm-10">
+						      <input type="date" id="date" class="form-control" name="date" >
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="password" class="col-sm-2 control-label">Password</label>
+						    <div class="col-sm-10">
+						      <input type="password" id="password" class="form-control" name="password" placeholder="Password">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="passwordConfirm" class="col-sm-2 control-label">Confirm Password</label>
+						    <div class="col-sm-10">
+						      <input type="password" class="form-control" name="passwordConfirm" placeholder="Password">
+						    </div>
+						  </div>
+						  <!-- submit_button -->
+						  <div class="form-group">
+						    <div class="col-sm-offset-0 col-sm-12">
+						      <input type="submit" name="submit" class="btn-submit" value="Register">
+						    </div>
+						  </div>
+						</form>
+						<div class="text-center hidden" id="loader"><img src="assets/spinner.svg" alt="Spinner"></div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/ajax.js"></script>
+</body>
+</html>
