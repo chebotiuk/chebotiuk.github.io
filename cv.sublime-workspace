@@ -1,0 +1,591 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"el",
+				"else"
+			],
+			[
+				"se",
+				"selectText"
+			],
+			[
+				"fi",
+				"firstOption"
+			],
+			[
+				"co",
+				"continue"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"appe",
+				"appendChild"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"xR",
+				"XRU"
+			],
+			[
+				"xRu",
+				"xRu"
+			],
+			[
+				"xEn",
+				"xEn"
+			],
+			[
+				"ph",
+				"phones"
+			],
+			[
+				"p",
+				"phonecatApp"
+			],
+			[
+				"main",
+				"mainTov"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"pro",
+				"prodActive"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"par",
+				"parent"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"pane",
+				"panel-default"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"folder",
+				"folderCode"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"moda",
+				"modalDiv"
+			],
+			[
+				"cl",
+				"clientX"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"c",
+				"clientX"
+			],
+			[
+				"ee",
+				"eventName"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"col-md-",
+				"col-md-offset-2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "proje",
+		"selected_items":
+		[
+			[
+				"proje",
+				"Project: Add Folder"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"j",
+				"Set Syntax: JSON"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/paul/Sites/chebotiuk.github.io"
+	],
+	"file_history":
+	[
+		"/Users/paul/Sites/metakam/metakam.sublime-project",
+		"/Users/paul/Sites/metakam/metakam.sublime-workspace",
+		"/Users/paul/Sites/metakam/js/xml.js",
+		"/Users/paul/Sites/metakam/js/live-search.js",
+		"/Users/paul/Sites/metakam/js/product-filter.js",
+		"/Users/paul/Sites/metakam/index.php",
+		"/Users/paul/Sites/metakam/k.php",
+		"/Users/paul/Sites/metakam/js/ostatki.js",
+		"/Users/paul/Sites/metakam/ostatok.php",
+		"/Users/paul/Sites/metakam/ostatok-dnepr.php",
+		"/Users/paul/Sites/metakam/templates/footer.php",
+		"/Users/paul/Sites/metakam/public/ostatok.php",
+		"/Users/paul/Sites/metakam/public/ostatok-dnepr.php",
+		"/Users/paul/Sites/metakam/public/k.php",
+		"/Users/paul/Sites/metakam/public/index.php",
+		"/Users/paul/Sites/metakam/templates/header.php",
+		"/Users/paul/Sites/metakam/css/bootstrap-theme.css",
+		"/Users/paul/Sites/chebotiuk.github.io/index.html",
+		"/Users/paul/Sites/chebotiuk.github.io/css/style.css",
+		"/Users/paul/Sites/chebotiuk.github.io/css/css",
+		"/Users/paul/Downloads/test.js",
+		"/Users/paul/Sites/chebotiuk.github.io/ex/ajax-json/js/data.json",
+		"/Users/paul/Sites/ex/ajax_json/index.html",
+		"/Users/paul/Sites/test/AjaxJs/phones.json",
+		"/Users/paul/Sites/test/AjaxJs/index.html",
+		"/Users/paul/Sites/ex/ajax_json/js/bundle.js",
+		"/Users/paul/Sites/ex/ajax_json/js/main.js",
+		"/Users/paul/Sites/ex/ajax_json/welcome",
+		"/Users/paul/Sites/ex/ajax_json/home.js",
+		"/Users/paul/Sites/ex/ajax_json/webpack.config.js",
+		"/Users/paul/Sites/ex/ajax_json/js/build.js",
+		"/Users/paul/Sites/exercises/ajax_json/js/data.json",
+		"/Users/paul/Sites/ex/ajax_json/css/styles.css",
+		"/Users/paul/Sites/exercises/ajax_json/index.html",
+		"/Users/paul/Sites/exercises/ajax_json/js/main.js",
+		"/Users/paul/Sites/test/TestAjaxJs/phones.json",
+		"/Users/paul/Sites/test/TestAjaxJs/index.html",
+		"/Users/paul/Sites/test/AjaxJs/server.js",
+		"/Users/paul/Downloads/bootstrap-3.3.7-dist 3/css/bootstrap.css",
+		"/Users/paul/Downloads/bootstrap-3.3.7-dist 3/css/styles.css",
+		"/Users/paul/Downloads/bootstrap-3.3.7-dist 3/index.html",
+		"/Users/paul/Downloads/bootstrap-3.3.7-dist 3/css/bootstrap.min.css",
+		"/Users/paul/Sites/test/my_angular/index.html",
+		"/Users/paul/Sites/test/my_angular/tpl/input.html",
+		"/Users/paul/Sites/test/my_angular/css/styles.css",
+		"/Users/paul/Sites/test/my_angular/js/app.js",
+		"/Users/paul/Sites/test/my_angular/js/routing.js",
+		"/Users/paul/Sites/test/my_angular/js/controllers.js",
+		"/Users/paul/Sites/test/my_angular/tpl/main.html",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/app.routes.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/components/ppCheckbox/ppCheckbox.com.js",
+		"/Users/paul/Sites/test/loftblog_angular_phonecat_app/index.html",
+		"/Users/paul/Sites/test/my_angular/js/directives.js",
+		"/Users/paul/Sites/test/loftblog_angular_phonecat_app/js/controllers.js",
+		"/Users/paul/Sites/test/loftblog_angular_phonecat_app/js/app.js",
+		"/Users/paul/Sites/test/my_angular/js/angular.min.js",
+		"/Users/paul/Sites/test/my_angular/js/bootstrap.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/package.json",
+		"/Users/paul/Downloads/angular-js-playlist-master/index.html",
+		"/Users/paul/Sites/test/my_angular/js/modules.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/index.html",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/styles/styles.scss",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/taskRunner.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/init.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/lib/underscore/underscore.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/components/home-page/home.html",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/components/loginAbstract-page/loginAbstract.ctrl.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/components/loginAbstract-page/loginAbstract.html",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/components/fromLink-page/fromLink.ctrl.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/components/home-page/home.ctrl.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/components/components.module.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/app.module.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/app.constants.js",
+		"/Users/paul/Sites/test/loftblog_angular/js/services.js",
+		"/Users/paul/Sites/test/loftblog_angular/js/controllers.js",
+		"/Users/paul/Sites/test/loftblog_angular/index.html",
+		"/Users/paul/Sites/test/loftblog_angular/README.md",
+		"/Users/paul/Sites/test/loftblog_angular/js/directives.js",
+		"/Users/paul/Sites/test/angular/app/index.html",
+		"/Users/paul/Sites/test/angular/app/controllers.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/app/components/ppHeader/ppHeader.com.js",
+		"/Users/paul/Downloads/paddy_power_acca_tracker/gulpfile.js",
+		"/Users/paul/Sites/angular-phonecat/app/index.html",
+		"/Users/paul/Sites/metakam/css/style.css",
+		"/Users/paul/Sites/metakam/js/xml-dnepr.js",
+		"/Users/paul/Sites/metakam/js/xmlDnepr.js",
+		"/Users/paul/Sites/metakam/ostatokDnepr.php",
+		"/Users/paul/Downloads/metakam/js/xml.js",
+		"/Users/paul/Sites/metakam/js/lightbox-plus-jquery.min.js",
+		"/Users/paul/Sites/git-test/index.html",
+		"/Users/paul/Sites/metakam/js/bootstrap.min.js",
+		"/Users/paul/Downloads/quicksearch-master/examples/jquery.js",
+		"/Users/paul/Downloads/quicksearch-master/jquery.quicksearch.js",
+		"/Users/paul/Downloads/quicksearch-master/examples/index.html",
+		"/Users/paul/Downloads/quicksearch-master/README.markdown",
+		"/Users/paul/Sites/angular-phonecat/package.json",
+		"/Users/paul/Sites/ex1/index.html",
+		"/Users/paul/Sites/ex1/js/data.json",
+		"/Users/paul/Sites/ex1/js/main.js",
+		"/Users/paul/Documents/index.html",
+		"/Users/paul/Downloads/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/Users/paul/Sites/metakam/js/owl.carousel.js",
+		"/Users/paul/Sites/metakam/js/popover.js",
+		"/Users/paul/Sites/metakam/js/contact_me.js",
+		"/var/folders/g0/_wgq1kx90pzf4rzmbtf36gh40000gn/T/sublime-sftp-browse-1476733431/metakam/metakam.com.ua/www/ostatok.php",
+		"/Users/paul/Sites/index.html",
+		"/Users/paul/Sites/testEx2/home.js",
+		"/Users/paul/Sites/testEx2/welcome",
+		"/Users/paul/Sites/testEx2/webpack.config.js",
+		"/Users/paul/Sites/testEx2/js/main.js",
+		"/Users/paul/Downloads/TestTaskFronEnd/data.json",
+		"/Users/paul/Sites/testEx2/build.js",
+		"/Users/paul/Sites/music/index.html",
+		"/var/folders/g0/_wgq1kx90pzf4rzmbtf36gh40000gn/T/sublime-sftp-browse-1476693814/chebotuk/brio.com.ua/www/published/SC/html/scripts/templates/frontend/onesteporder/main.html",
+		"/Users/paul/Sites/gitMusic/index.html",
+		"/Users/paul/Downloads/prfilter_functions.php",
+		"/Users/paul/Sites/Music/index.html",
+		"/Users/paul/Sites/test-ex/index.html",
+		"/Users/paul/Sites/test-ex/js/main.js",
+		"/Users/paul/Sites/test-ex/css/style.css",
+		"/var/folders/g0/_wgq1kx90pzf4rzmbtf36gh40000gn/T/sublime-sftp-browse-1476199949/chebotuk/brio.com.ua/www/published/SC/html/scripts/templates/frontend/product_brief.html",
+		"/Users/paul/Downloads/autoreload.js",
+		"/Users/paul/Downloads/main.js",
+		"/Users/paul/Dropbox/Study/Frontend/ICEMD/Exercises/maket.css",
+		"/Users/paul/Sites/modal.html",
+		"/Users/paul/Dropbox/Study/Frontend/ICEMD/Exercises/maket1.css",
+		"/Users/paul/Dropbox/Study/Frontend/ICEMD/Exercises/maket1.html",
+		"/Users/paul/Sites/test/react-js/package.json"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getElementById('text')",
+			"getElementById",
+			"text",
+			"'text'",
+			"var text",
+			"textArea",
+			"text",
+			"event",
+			"push",
+			"table",
+			".table",
+			"collapse",
+			".table",
+			"table",
+			"category",
+			"alert",
+			"route",
+			"sizes",
+			"fa",
+			"subCatActive",
+			"\"in\"",
+			"collapse",
+			"panel-heading",
+			"panel-collapse",
+			"in",
+			"in'",
+			"'in'",
+			"tr",
+			"primary",
+			"Kiev",
+			"mainTable",
+			"class=\"",
+			"class",
+			"\"parent",
+			"parent",
+			"array",
+			"folderSub",
+			"console.log",
+			"data",
+			"IFrame",
+			"onesteporder-center-IFrame",
+			"img",
+			"page",
+			"client",
+			"clientX",
+			"margin-top",
+			"left",
+			"none",
+			"logo",
+			".product .",
+			"img",
+			">\n",
+			"одной",
+			"от од",
+			"purotex",
+			"cocos",
+			"coco",
+			"spring",
+			"peno",
+			"control",
+			"latex",
+			"cotton",
+			"carbon",
+			"F1",
+			"F11",
+			"F1",
+			"F3",
+			"side_bar",
+			"<Directory \"/Library/WebServer/Documents\">",
+			"#LoadModule php5_module libexec/apache2/libphp5.so",
+			"DocumentRoot \"/Library/WebServer/Documents\"",
+			"site",
+			"sites"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"console.log",
+			"tr.prodActive",
+			".prodActive",
+			"info",
+			"kiev",
+			"client",
+			"screen",
+			"screenX",
+			"margin-bottom",
+			"right",
+			"bottom",
+			"top",
+			"right"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "cv.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
