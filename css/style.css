@@ -35,6 +35,10 @@ Primary use:	CV/Resume, Portfolio, Perosnal Website
     border-color:       #4783c2;
 
 ------------------------------------------------------------------ */
+@font-face {
+ font-family: Handwriting; /* Имя шрифта */
+ src: url(../fonts/ShadowsIntoLight.ttf); /* Путь к файлу со шрифтом */
+}
 * {
   font-family: 'roboto', sans-serif;
 }
@@ -162,9 +166,10 @@ body {
 }
 .section .section-wrapper {
   background-color: #ffffff;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-bottom: 24px;
   padding-bottom: 24px !important;
+  position: relative;
 }
 .section .section-wrapper .section-icon {
   margin-top: 40px;
@@ -564,4 +569,30 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .project-information li a {
   color: #5da4d9;
 }
+.note {
+  background-image: url(../img/paperclip_note.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+    top: 77px;
+    right: -23px;
+  height: 270px;
+  width: 270px;
+  padding: 53px 0px 0px 0px;
+  z-index: 10;
+}
+.note > ul {
+  padding: 0 0 0 13px;
+}
+.note > ul > li, .note a {
+  list-style-type: none;
+  font-family: Handwriting;
+  letter-spacing: 1px;
+  font-size: 12pt;
+  margin-right: 30px;
+}
+.note a[title="Follow Pavlo Chebotiuk on F6S"] {
+  float: right;
+}
+
 /*.height {height: 1000px}*/
