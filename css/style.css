@@ -575,11 +575,29 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   background-size: contain;
   position: absolute;
     top: 77px;
-    right: -23px;
+    right: -500px;
   height: 270px;
   width: 270px;
   padding: 53px 0px 0px 0px;
   z-index: 10;
+
+  animation: append 0.5s 1s forwards;
+}
+@-webkit-keyframes append {
+  0%   { right: -500px; }
+  100% { right: -23px; }
+}
+@-moz-keyframes append {
+  0%   { right: -500px; }
+  100% { right: -23px; }
+}
+@-o-keyframes append {
+  0%   { right: -500px; }
+  100% { right: -23px; }
+}
+@keyframes append {
+  0%   { right: -500px; }
+  100% { right: -23px; }
 }
 .note > ul {
   padding: 0 0 0 13px;
