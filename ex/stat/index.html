@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>First Task</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://use.fontawesome.com/381b57c760.js"></script>
+</head>
+<body>
+	<header>
+		<h1 class="text-center" style="color: darkred;">COVID 19 - Ukraine stat</h1>
+		<h2 class="text-center" style="color: white">ITS A TODAY STAT GUYS! A REALITY! ALL STATS APPROVED BY PAVLOXIII</h2>
+	</header>
+	<main class="flex">
+		<div class="block active">
+			<h2 style="color: grey; font-weight: bold">New virus owners</h2>
+			<div style="display: flex; justify-content: center;">
+				<p style="font-weight: bold; font-size: 38px; color: black; text-shadow: 8px 2px 2px pink;" id="newOwners"></p>
+			</div>
+		</div>
+		<div class="block">
+			<h2>Chance to get virus</h2>
+			<div style="display: flex; justify-content: center;">
+				<p style="font-weight: bold; font-size: 38px; color: black; text-shadow: 8px 2px 2px pink;" id="risk">100 persons</p>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p class="copyright">
+			Copyright 2020 STATS APPROVED BY PAVLOXIII
+		</p>
+	</footer>
+	<script type="text/javascript">
+		fetch('https://api.covid19api.com/country/ukraine/status/confirmed')
+			.then((res) => {
+				if (res.ok) return res.json()
+			})
+			.then(data => {
+				const lastInfo = data[data.length - 1];
+				newOwners.innerText = lastInfo.Cases + ' new owners!';
+
+				const riskInfo = (lastInfo.Cases / 41980000) * 100;
+				risk.innerText = riskInfo.toFixed(2) + ' % of risk!';
+			})
+	</script>
+</body>
+</html>

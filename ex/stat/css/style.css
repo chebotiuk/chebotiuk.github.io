@@ -1,0 +1,203 @@
+@font-face {
+ font-family: 'Montseratt Bold'; /* Имя шрифта */
+ src: url(../fonts/montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+ font-family: 'Montseratt Regular'; /* Имя шрифта */
+ src: url(../fonts/montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+ font-family: 'Arvo'; /* Имя шрифта */
+ src: url(../fonts/arvo/Arvo-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+ font-family: 'Arvo Bold'; /* Имя шрифта */
+ src: url(../fonts/arvo/Arvo-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+footer {
+	position: absolute;
+		bottom: 0px;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+body {
+	max-width: var(--width);
+	margin: 0 auto;
+	/* wrapper for footer */
+	position: relative;
+	min-height: 100%;
+	background-image: url('https://cdn130.picsart.com/235338428006202.jpg?type=webp&to=min&r=640');
+	background-size: cover;
+}
+p {
+	font-family:  sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	transition: color 0.5s;
+}
+ul {
+	padding-left: 0px;
+	margin: 70px 10px -20px 10px;
+	font-family: 'Montseratt Bold';
+}
+nav li {
+	display: inline-block;
+	margin-right: 40px;
+	letter-spacing: 2px;
+	font-size: 12pt;
+	font-weight: 200;
+}
+nav li:last-child {
+	margin-right: 0px;
+}
+nav li a {
+	text-decoration: none;
+	color: #9fa3a7;
+	cursor: pointer;
+}
+nav li a:hover {
+	color: #292929;
+}
+h1 {
+	line-height: 130px;
+	font-family: 'Arvo Bold';
+	font-size: 32pt;
+}
+h2 {
+	font-family: 'Arvo';
+	color: #212121;
+	font-size: 22px;
+	line-height: 32px;
+	transition: color 0.5s;
+}
+.text-center {
+	text-align: center;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 120px;
+}
+.block {
+	position: relative;
+	height: 440px;
+	padding: 245px 20px 20px 20px;
+	margin: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	transition: background-color 0.5s;
+	flex-basis: 360px;
+	color: #212121;
+}
+.block:hover {
+	background-color: #292929 !important;
+	color: #fff;
+}
+.block:hover > h2 {
+	color: #fff;
+}
+.block:hover p {
+	color: #9fa3a7;
+}
+div.block.active {
+	background-color: #c1d3d7;
+	color: #fff;
+}
+div.block.active > h2 {
+	color: #fff;
+}
+.block:nth-child(1) {
+	background: url('../img/Photo1.jpg') no-repeat;
+	background-color: #F7F8FA;
+	background-size: contain;
+}
+.block:nth-child(2) {
+	background: url('../img/Photo2.jpg') no-repeat;
+	background-color: #F7F8FA;
+	background-size: contain;
+}
+.block:nth-child(3) {
+	background: url('../img/Photo3.jpg') no-repeat;
+	background-color: #F7F8FA;
+	background-size: contain;
+}
+.block:nth-child(4) {
+	background: url('../img/Photo4.jpg') no-repeat;
+	background-color: #F7F8FA;
+	background-size: contain;
+}
+.block:hover {
+	background-color: #292929;
+}
+.blockFooter {
+	position: absolute;
+		bottom: 0px;
+	min-width: 320px;
+}
+.blockFooter p {
+	font-family: 'Montseratt Bold';
+	font-size: 10px;
+	vertical-align: middle;
+	line-height: 10px;
+}
+.blockFooter p i {
+	font-size: 14pt;
+	vertical-align: middle;
+}
+p.text-left {
+	text-align: left;
+}
+p.text-right {
+	text-align: right;
+}
+p.text-center {
+	text-align: center;
+}
+.copyright {
+	margin: 50px 10px;
+	font-family: sans-serif;
+	color: #9fa3a7;
+	font-size: 14px;
+}
+
+@media (max-width: 899px) {
+	body {
+		--width: 380px;
+	}
+	.block:last-child {
+		background: url('../img/Photo5.jpg') -200px -200px no-repeat;
+		background-color: #c1d3d7;
+		background-size: cover;
+	}
+	.hidden-xs {
+		display: none;
+	}
+}
+@media (min-width: 900px) {
+	body {
+		--width: 760px;
+	}
+	.block:last-child {
+		flex-basis: 740px;
+		background: url('../img/Photo5.jpg') 0px -144px no-repeat;
+		background-color: #c1d3d7;
+		background-size: contain;
+	}
+}
+@media (min-width: 1280px) {
+	body {
+		--width: 1140px;
+	}
+	.block:last-child {
+		flex-basis: 740px;
+	}
+}
