@@ -36,10 +36,12 @@
 				if (res.ok) return res.json()
 			})
 			.then(data => {
-				const lastInfo = data[data.length - 1];
-				newOwners.innerText = lastInfo.Cases + ' new owners!';
+				console.log(data)
+				const lastInfoPrev = data[data.length - 3];
+				const lastInfo = data[data.length - 2];
+				newOwners.innerText = lastInfo.Cases - lastInfoPrev.Cases + ' new owners!';
 
-				const riskInfo = (lastInfo.Cases / 41980000) * 100;
+				const riskInfo = (lastInfo.Cases / 34980000) * 100;
 				risk.innerText = riskInfo.toFixed(2) + ' % of risk!';
 			})
 	</script>
