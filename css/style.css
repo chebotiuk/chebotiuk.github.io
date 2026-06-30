@@ -828,6 +828,11 @@ body {
   color: var(--ink);
 }
 
+/* ---- Highlighted (most recent) courses ---- */
+.course-highlight {
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 992px) {
   .hero-row {
     margin: 12px 8px 20px !important;
